@@ -17,3 +17,8 @@ console.log(fullName.split(" "));
 console.log(fullName.split(""));
 console.log(fullName.toUpperCase());
 console.log(fullName.toLowerCase());
+
+const bioData = (): void => {
+    console.log(`My name is ${fullName} my userId is ${userId}`);
+}
+bioData()

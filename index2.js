@@ -13,3 +13,7 @@ console.log(fullName.split(" "));
 console.log(fullName.split(""));
 console.log(fullName.toUpperCase());
 console.log(fullName.toLowerCase());
+var bioData = function () {
+    console.log("My name is ".concat(fullName, " my userId is ").concat(userId));
+};
+bioData();
